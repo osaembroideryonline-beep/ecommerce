@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const LoginModal = ({ onClose }) => {
   const location = useLocation();
@@ -7,7 +8,7 @@ const LoginModal = ({ onClose }) => {
 
   const handleGoogleLogin = () => {
     localStorage.setItem("redirectPath", redirectPath);
-    window.location.href = "https://ecommerce-six-omega.vercel.app/auth/login";
+    window.location.href = `${API_BASE_URL}/auth/login`;
   };
 
   return (
