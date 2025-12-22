@@ -47,7 +47,7 @@ const Header = ({ openLogin }) => {
   const navLinks = [
     { to: "/", label: "Home" },
     { to: "/products", label: "Products" },
-    { to: "/machinery", label: "Machinery" },
+    { to: "/machinery", label: "Spares" },
     { to: "/machines", label: "Machines" },
     { to: "/orders", label: "Orders" },
   ];
