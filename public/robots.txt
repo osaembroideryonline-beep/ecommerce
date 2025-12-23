@@ -1,9 +1,5 @@
-User-Agent: *
+User-agent: *
 Allow: /
-
-# Cloudflare content signals
-Content-signal: search=yes
-Content-signal: ai-train=no
 
 User-agent: Amazonbot
 Disallow: /
@@ -28,3 +24,5 @@ Disallow: /
 
 User-agent: meta-externalagent
 Disallow: /
+
+Sitemap: https://www.osaembroidery.com/sitemap.xml
