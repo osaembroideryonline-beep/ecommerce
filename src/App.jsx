@@ -40,6 +40,10 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
+
+    if (showIntro) {
+    return <IntroScreen />;
+  }
   
   return (
     <Router>
@@ -73,7 +77,6 @@ function App() {
         <MachineryBasketSidebar />
         {showLogin && <Login onClose={() => setShowLogin(false)} />}
 
-        {showIntro && <IntroScreen />}
       </div>
     </Router>
   );
