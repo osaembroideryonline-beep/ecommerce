@@ -26,7 +26,7 @@ const ProductGallery = ({ images = [] }) => {
         <img
           src={images[currentIndex]}
           alt={`Product image ${currentIndex + 1}`}
-          className="w-full h-full object-cover p-16 md:18 lg:p-24 bg-black"
+          className="w-full h-full object-contain p-16 md:18 lg:p-24 bg-black"
         />
 
         {images.length > 1 && (
