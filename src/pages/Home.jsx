@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Sparkles, TrendingUp } from 'lucide-react';
+import { ArrowRight, Sparkles, TrendingUp ,Rocket } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
 import { api } from '../utils/api';
 
@@ -204,10 +204,10 @@ const Home = () => {
           <div className="flex items-center justify-between mb-12">
             <div className="flex items-center space-x-4">
               <div className="p-3 bg-linear-to-br from-amber-400 to-amber-600 rounded-xl">
-                <Sparkles className="h-7 w-7 text-white" />
+                <Rocket className="h-7 w-7 text-white" />
               </div>
               <div>
-                <h2 className="text-4xl font-bold text-gray-900">New Arrivals</h2>
+                <h2 className="text-4xl font-bold text-gray-900">New Launches</h2>
                 <p className="text-gray-600 mt-1">Fresh designs just added</p>
               </div>
             </div>
