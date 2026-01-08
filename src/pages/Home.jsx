@@ -24,9 +24,9 @@ const Home = () => {
   const [loading, setLoading] = useState(true);
 
   const categories = [
-    { name: 'Blouse Designs', slug: 'Blouse', icon: '👗' },
-    { name: 'Buttes Borders', slug: 'Buttes', icon: '🎨' },
-    { name: '3D Embossed', slug: '3D Embossed', icon: '👘' },
+    { name: 'Blouse Designs', slug: 'Blouse', icon: '👚' },
+    { name: 'Buttes Borders', slug: 'Buttes', icon: '⚜️' },
+    { name: 'Cartoon', slug: 'Cartoon', icon: '🦹🏻' },
     { name: 'Kids Designs', slug: 'Kids', icon: '👶' },
     { name: 'Logos', slug: 'Logos', icon: '🏷️' },
     { name: 'Photo Embroidery', slug: 'Photos', icon: '📸' },
