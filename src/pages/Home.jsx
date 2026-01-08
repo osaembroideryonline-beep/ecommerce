@@ -28,8 +28,8 @@ const Home = () => {
     { name: 'Buttes Borders', slug: 'Buttes', icon: '⚜️' },
     { name: 'Cartoon', slug: 'Cartoon', icon: '🦹🏻' },
     { name: 'Kids Designs', slug: 'Kids', icon: '👶' },
-    { name: 'Logos', slug: 'Logos', icon: '🏷️' },
-    { name: 'Photo Embroidery', slug: 'Photos', icon: '📸' },
+    { name: 'Logos', slug: 'Logos', icon: '🐦‍🔥' },
+    { name: 'Photo Embroidery', slug: 'Photos', icon: '🌄' },
   ];
 
 
