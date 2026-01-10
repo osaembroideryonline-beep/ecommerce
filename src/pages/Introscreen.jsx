@@ -22,7 +22,7 @@ const IntroScreen = () => {
       style={{
         backgroundImage: `url('${
           isPortrait
-            ? "https://res.cloudinary.com/dobuwrfn8/image/upload/v1766048280/osalogobg_q33d14.jpg"
+            ? "https://res.cloudinary.com/dobuwrfn8/image/upload/v1768031972/osamobilebg_odno82.webp"
             : "https://res.cloudinary.com/dobuwrfn8/image/upload/v1768031971/osadeskbg_sjgma5.webp"
         }')`,
         backgroundRepeat: "repeat",
