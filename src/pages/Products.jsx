@@ -116,6 +116,7 @@ useEffect(() => {
     try {
       const data = await api.fetchProductsInfiniteScroll(50, 0);
       const allProducts = data.products || [];
+      console.log(allProducts);
       setProducts(allProducts);
       setFilteredProducts(applySort(allProducts, "newest"));
       setOffset(50);
