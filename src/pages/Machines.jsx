@@ -21,7 +21,7 @@ const Machines = () => {
         setMachines(machinesList);
       } catch (err) {
         console.error('Error fetching machines:', err);
-        setError(err.message || 'Failed to load machines');
+        setError(true);
         showToast('Failed to load machines', 'error');
       } finally {
         setLoading(false);
@@ -87,7 +87,7 @@ const Machines = () => {
       <div className="flex items-center justify-center min-h-screen">
         <div className="flex flex-col items-center">
           <AlertCircle className="h-12 w-12 text-red-600 mb-4" />
-          <p className="text-gray-600 font-medium">{error}</p>
+          <p className="text-gray-600 font-medium">Unable to load machines at the moment.</p>
         </div>
       </div>
     );
